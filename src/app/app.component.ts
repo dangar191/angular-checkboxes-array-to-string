@@ -19,7 +19,7 @@ sendPerm() {
       let index = i + 1;
       if (this.permArray[i] == true) {
         if (i === this.permArray.length) {
-          objPerm += index.toString(); //index es = 1 2 3 o 4 no 0 1 2 3
+          objPerm += index.toString(); 
           console.log('Antes del else: ' + objPerm);
         } else {
           objPerm += index.toString() + ',';
